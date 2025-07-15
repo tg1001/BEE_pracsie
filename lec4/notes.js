@@ -1,0 +1,3 @@
+function decudctnakamount(amount, cb) {
+   
+}
