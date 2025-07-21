@@ -1,0 +1,21 @@
+write data in the file using fs module,
+input data should be taken using terminal.
+
+date: 15 july 2025
+
+in java the main function has
+psvm(String [] args) ["hi", "bye"]
+
+//////--------run
+console.log(process,argv)
+
+assigment part2
+
+INPUT: todo ka tittle AND todo ka discription
+process.stdinput
+write todo then again todo to write object in same write. 
+dont overwrite data
+first read file
+array
+push the object
+then stringfy 
