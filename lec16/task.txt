@@ -1,0 +1,13 @@
+same folder k andr unser schema
+user schema
+ 
+enail
+username
+passwrod
+
+blogs route 3 route
+add user
+all user
+app.get("/users/:id)
+
+app.post("/users)
