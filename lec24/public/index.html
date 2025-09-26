@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">BlogApp</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="./allblog">AllBlogs</a>
+            <a href="./myblog">myBlog</a>
+            
+        </nav>
+         </header>
+
+         <main>
+            <div class="signup">
+                <form action="/api/signup" method="POST">
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="password" name="password" placeholder="Enter Password" required>
+                    <button type="submit">SignUp</button>
+            </div>
+            <div class="login">
+                <form action="/api/login" method="POST">
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="password" name="password" placeholder="Enter Password" required>
+                    <button type="submit">Login</button>
+                </form>
+
+            </div>
+         </main>
+</body>
+</html>
